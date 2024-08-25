@@ -3,10 +3,10 @@
 // Ye wali line ko dekhege "Saksham is a great person."
 // First ye wali line run karo "Anuj is a good boy."
 
-console.log('Saksham is a good boy.');
+console.log('Anyone is a good boy.');
 
 setTimeout(() => {
-    console.log('Saksham is inside settimeout.');
+    console.log('Anyone is inside settimeout.');
 }, 2000);
 
 console.log('Saksham is a bad boy.');
