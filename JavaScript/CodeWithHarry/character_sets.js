@@ -1,11 +1,11 @@
 console.log("Welcome to regex character sets file.")
 
 // Functions for character sets.
-let regex = /S[a-z]ksham/ // This means that there would be anything between a to z.
-regex = /S[ask]ksham/; // This means that there would be anything from a, s or k
-regex = /S[^ask]ksham/; // This means that there would not be anything from a, s or k 
+let regex = /S[a-z]one/ // This means that there would be anything between a to z.
+regex = /S[ask]one/; // This means that there would be anything from a, s or k
+regex = /S[^ask]two/; // This means that there would not be anything from a, s or k 
 
-const str = "Saksham Bhai is amazing."
+const str = "Anyone is amazing."
 let result = regex.exec(str)
 console.log("The result from exec is ", regex);
 
