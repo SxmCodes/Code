@@ -6,7 +6,7 @@ function Welcome(props) {
 }
 ```
 
-This is the proper function to print :- Hello, Saksham 😎.
+This is the proper function to print :- Hello, User 😎.
 
 ```js
 function Welcome(props) {
