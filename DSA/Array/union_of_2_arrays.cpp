@@ -1,25 +1,23 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int union_of_arrays(int a[], int b[])
-{
-    // Time Complexity = O(n+m);
-    unordered_set<int> set;
-    for (int x : a)
-    {
-        set.insert(x);
+int doUnion(int arr[],int n, int brr[], int m){
+    int i=0,j=0;
+    while(i<m && j<n){
+        if(arr[i]< brr[j])
+            cout<<arr[i++]<< " ";
+        else if(brr[j]<arr[i])
+            cout<<brr[j++]<<" ";
+        else{
+            cout<<brr[j++]<<" ";
+            i++;
+        }
+        while(i<m)
+            cout<<arr[i++]<<" ";
+        while(j<n)
+            cout<<brr[j++]<<" ";
     }
-    for (int x : b)
-    {
-        set.insert(x);
-    }
-    return set.size();
 }
-
-int main()
-{
-    int a[] = {10, 20, 30, 40, 4};
-    int b[] = {4, 10, 30};
-    union_of_arrays(a, b);
+int main(){
     return 0;
 }
