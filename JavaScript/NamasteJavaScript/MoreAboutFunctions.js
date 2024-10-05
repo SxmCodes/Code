@@ -1,7 +1,7 @@
 // Function Statement/Declaration
-function saksham() {
+function USER() {
   // JS will treat it as function and will have memory allogation like functions. It can be accessed before creation, so the difference is hoisting.
-  console.log("Saksham");
+  console.log("USER");
 }
 
 // Function Expression.
