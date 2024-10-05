@@ -14,7 +14,7 @@ console.log(add(5, 6))
 function spitter(string) {
     return string;
 }
-console.log(spitter("Saksham"))
+console.log(spitter("User"))
 
 // Function for reverser(reverse anything which we give).
 function reverser(string2) {
@@ -25,16 +25,16 @@ function reverser(string2) {
 }
 console.log(reverser("Kush Bhi"))
 
-// console.log('saksham'.split('').reverse().join())
+// console.log('User'.split('').reverse().join())
 // SPLIT is used in making string into arrays.
 // JOIN is used in making arrays back into strings.
 // REVERSE is used in reversing the arrays.
 
 //If else statements.
-let saksham = "hungry"
-// Agar saksham = hungry, khana khalo.
-// Agar saksham != hungry, kaam karo.
-if (saksham === "hungry") {
+let User = "hungry"
+// Agar USer = hungry, khana khalo.
+// Agar User != hungry, kaam karo.
+if (User === "hungry") {
     return "Khana Khalo." // We can user return also.
 }
 else {
