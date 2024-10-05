@@ -1,15 +1,15 @@
 console.log("Welcome to regex...");
-let reg = /Saksham/; // This is the regular expression literal.
+let reg = /User/; // This is the regular expression literal.
 
-// To find every Saksham inside the sentence.
+// To find every User inside the sentence.
 // Another things we can do.
-// reg = /Saksham/g // This is the search globally. G means Global
-// reg = /Saksham/i // I means Case insenstivity.
+// reg = /User/g // This is the search globally. G means Global
+// reg = /User/i // I means Case insenstivity.
 
 console.log(reg);
 console.log(reg.source);
 
-let s = "Saksham is the greatest of all. Saksham is the best.";
+let s = "User is the greatest of all. User is the best.";
 
 
 // Functions to match expressions for advance searching.
@@ -17,7 +17,7 @@ let s = "Saksham is the greatest of all. Saksham is the best.";
 let result = reg.exec(s);
 console.log(result);
 
-// This will also return the same thing which the first one will do, to match the second Saskham as well, I want to write g (global) at the end of Saksham.
+// This will also return the same thing which the first one will do, to match the second Saskham as well, I want to write g (global) at the end of User.
 let result = reg.exec(s);
 
 // Playing with the result.
