@@ -2,8 +2,6 @@
 // We have to create a variable which is a string containing the text which is a link We are interested in.
 
 // We have to fetch all the links from a given page which contains this text
-
-// codewithharry.com
 // javascript
 
 // This will give you all of the links which have "python" keyword in them.
