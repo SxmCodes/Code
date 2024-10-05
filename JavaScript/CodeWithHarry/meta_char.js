@@ -1,16 +1,16 @@
 // Meta Chatracters in regex.
 console.log("Welcome to this metachar thing in regex.");
-let regex = /saksham/
+let regex = /User/
 
 // Meta Character Symbols :-
-regex = /^s/ // This means the expression starts with given letter.
-regex = /t$/ // This means the expression ends with given letter.
-regex = /sa.sham/ // This means that there should be any one character in the place of . but just 1.
-regex = /sa*sham/; // This means that there would be more than 1 characters
-regex = /sak?shami?/; // This means that the character before ? is optional.
-regex = /s\*ksham/ // This means that we have * character not that optional one, now we can use star in string.
+regex = /^u/ // This means the expression starts with given letter.
+regex = /s$/ // This means the expression ends with given letter.
+regex = /us.er/ // This means that there should be any one character in the place of . but just 1.
+regex = /us*er/; // This means that there would be more than 1 characters
+regex = /u?se?r/; // This means that the character before ? is optional.
+regex = /us\*r/ // This means that we have * character not that optional one, now we can use star in string.
 
-let str = "saksham is a good boy and saksham is great"
+let str = "User is a good boy and User is great"
 let result = regex.exec(str)
 
 console.log("The result from exec is :- ", result);
